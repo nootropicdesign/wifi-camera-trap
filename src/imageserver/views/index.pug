@@ -1,0 +1,9 @@
+html  
+  head
+    title= title
+  body
+    each image in images
+            img(src=image width=200 onclick="this.style.width=1024")
+            span= '  ' + image.substring((image.indexOf('/') + 1), image.indexOf('.jpg'))
+            br
+            p

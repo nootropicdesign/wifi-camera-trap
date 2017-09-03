@@ -1,0 +1,22 @@
+{
+  "name": "imageserver",
+  "version": "1.0.0",
+  "description": "An AJAX file uploader using JS and NodeJS",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nootropicdesign/wifi-camera-trap.git"
+  }
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Krumpus",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "express": "^4.15.2",
+    "jimp": "^0.2.28",
+    "pug": "^2.0.0-rc.2",
+    "serve-index": "^1.8.0"
+  }
+}
